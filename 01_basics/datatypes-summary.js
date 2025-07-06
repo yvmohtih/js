@@ -33,3 +33,22 @@ console.log(typeof heros);
 
 
 // read all the datatypes
+
+// Stack(Primitive),Heap(Non primitive)
+
+let myYoutubeName = "mohith"
+
+let anotherName = myYoutubeName
+anotherName = "mycode"
+console.log(anotherName);
+
+let userOne = {
+    email:"abc2google.com",
+    upi:"@ybl"
+}
+let userTwo = userOne
+
+userTwo.email = "mohith.google.com"
+
+console.log(userOne.email);
+
